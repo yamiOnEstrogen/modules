@@ -23,7 +23,7 @@ git clone https://github.com/0xyami/modules
 Navigate to the project directory
 
 ```bash
-cd moderate
+cd modules
 ```
 
 Install dependencies
