@@ -1,0 +1,11 @@
+Documentation:
+- changed-files:
+  - any-glob-to-any-file: 'docs/**'
+
+Modules:
+- changed-files:
+  - any-glob-to-any-file: 'src/modules/**'
+
+Github:
+- changed-files:
+  - any-glob-to-any-file: '.github/**'
