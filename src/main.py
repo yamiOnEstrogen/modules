@@ -50,7 +50,7 @@ def checkDependencies(deps):
     for dep in deps:
         if dep not in pipFreeze:
             print(f"Missing dependency: {dep}, installing...")
-            os.system(f"pip install {dep}")
+            os.system(f"pip install --target ./ {dep}")
 
 
 def main():
